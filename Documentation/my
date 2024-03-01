@@ -1,0 +1,7 @@
+worker {Facebook.com 
+  auth_storage_path="/var/lib/boundary"
+  initial_upstreams = ["10.0.0.1"]
+  controller_generated_activation_token = "neslat_........."
+  # controller_generated_activation_token = "env://ACT_TOKEN"
+  # controller_generated_activation_token = "file:///tmp/worker_act_token"
+}
